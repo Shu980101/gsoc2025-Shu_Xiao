@@ -1,0 +1,19 @@
+I"Æ	<blockquote>
+  <p><em>GSOC Coding Week 4 Progress Report</em></p>
+</blockquote>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/week4.png" alt="img" /></p>
+
+<p>This week I started by improving the connection protocol over drone exercises(<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1021">issue #1021</a>). The issue was manager.py was not waiting for launch.py to finish launching the Gazebo, PX4 <abbr title="Software In The Loop">SITL</abbr>, <abbr title="MAVLink extendable communication node for ROS">MAVROS</abbr> in order. So, I have added a temporary text file <code class="language-plaintext highlighter-rouge">status.txt</code> to solve this. As soon as <abbr title="MAVLink extendable communication node for ROS">MAVROS</abbr> is launched, a new file will be created writing <code class="language-plaintext highlighter-rouge">done</code>. Until the <code class="language-plaintext highlighter-rouge">status.txt</code> is created, manager.py will keep on checking for the file every 2 seconds.</p>
+
+<p>The connection protocol for multi-drone exercises(addressed in <a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">issue #1061</a>) is still unsolved. However, <code class="language-plaintext highlighter-rouge">listener actuator_armed -i &lt;topic-instance&gt;</code> can be used to listen on uORB topics and print the data to the console (more info: <a href="https://dev.px4.io/master/en/middleware/modules_command.html#listener">listener</a>). The default topic instance is 0. Multi-vehicle simulations use a separate remote port for each instance, allocated sequentially (more info: <a href="https://docs.px4.io/master/en/simulation/#default-px4-mavlink-udp-ports">mavlink-udp-ports</a>). This needs further discussion and can be used to solve the issue.</p>
+
+<p>This week I also migrated the remaining 3 drone exercises from <abbr title="Robot Operating System">ROS</abbr>-node to Web-template based.</p>
+
+<ul>
+  <li><strong>Drone Gymkhana:</strong> The goal of this exercise is to learn how to control a drone to complete a gymkhana course, composed of several waypoints that youâ€™ll have to navigate through.</li>
+  <li><strong>Drone Hangar:</strong> The goal of this exercise is to implement the logic that allows a quadrotor to escape a hangar filled with moving obstacles.</li>
+  <li><strong>Visual Lander:</strong> The goal of this exercise is to implement the logic that allows a quadrotor to visualize a beacon and land on it.</li>
+</ul>
+
+:ET

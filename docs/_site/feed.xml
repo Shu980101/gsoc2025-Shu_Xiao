@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/feed.xml" rel="self" type="application/atom+xml" /><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-06-15T00:10:09+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/feed.xml</id><title type="html">GSoC 2025 Shu Xiao</title><entry><title type="html">Final Blog</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-08-18-Final-Blog/" rel="alternate" type="text/html" title="Final Blog" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Final-Blog</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-08-18-Final-Blog/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Final Blog and Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;project-overview&quot;&gt;&lt;strong&gt;Project Overview&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jderobot.github.io/&quot;&gt;JdeRobot&lt;/a&gt;’s &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy&quot;&gt;Robotics-Academy&lt;/a&gt; is a framework for learning robotics and computer vision. It consists of a collection of robot programming exercises using Python language where the student has to code the behavior of a given (either simulated or real) robot to fit some task related to robotics or computer vision. It uses standard middleware and libraries as &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt; and OpenCV, so the student learns the state-of-the-art tools.&lt;/p&gt;
+
+&lt;p&gt;The main &lt;a href=&quot;https://jderobot.github.io/activities/gsoc/2021#project-2-robotics-academy-new-drone-based-exercises&quot;&gt;goal&lt;/a&gt; of my project is to migrate the drone exercises from v2.1 (&lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt; node based) to v2.3 (Web/Docker-based) of the Robotics Academy. Introduce a new drone-based exercise: Drone Package Delivery in &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-noetic and Gazebo-11 and create their requisite gazebo models.&lt;/p&gt;
+
+&lt;h2 id=&quot;completed&quot;&gt;&lt;strong&gt;Completed&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/ohyeah.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All the 9 drone exercises of RoboticsAcademy are now available in a web-based template. 3 new Gazebo models are now available in drone_assets. Almost all the web-based exercises of RoboticsAcademy are now available in ROS1-Noetic (with hardware acceleration support only for Ubuntu+NVIDIA). The 9 drone exercises have support for on-demand logs (&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1100#issuecomment-874701845&quot;&gt;instructions&lt;/a&gt;). The drone-cat-mouse exercise has support for automatic evaluation of the cat robot (testing).&lt;/p&gt;
+
+&lt;h2 id=&quot;important-links&quot;&gt;&lt;strong&gt;Important Links&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Docs&lt;/th&gt;
+      &lt;th&gt;Teaser&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drone Cat and Mouse&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_cat_mouse&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/0dV8OkTG0pM&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Follow Turtlebot&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/follow_turtlebot&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/r4etz1-pm4k&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Follow Road&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/follow_road&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/DdwsbH944M8&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Labyrinth Escape&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/labyrinth_escape&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/e2-BE1KKtm0&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Position Control&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/position_control&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/VF5tj0xFpe0&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rescue People&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/rescue_people&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/ee_T46fpHN8&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drone Gymkhana&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_gymkhana&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/68GSXnOTUNs&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drone Hangar&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_hangar&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Visual Lander&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://jderobot.github.io/RoboticsAcademy/exercises/Drones/visual_lander&quot;&gt;Docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://youtu.be/ScQbVwzqGZA&quot;&gt;Teaser&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;future-work&quot;&gt;&lt;strong&gt;Future Work&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Comparing to the proposal, few changes were made in the last week to focus on the automatic evaluation of the drone-cat-mouse exercise. Thus, the new exercise - Drone Package Delivery remains as future work.&lt;/p&gt;
+
+&lt;p&gt;The connection protocol for the multi-drone exercise (&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1165&quot;&gt;issue #1165&lt;/a&gt;) discussed in the Week 4 blog remains as future work.&lt;/p&gt;
+
+&lt;h2 id=&quot;issues-and-pull-requests&quot;&gt;&lt;strong&gt;Issues and Pull Requests&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Issue&lt;/th&gt;
+      &lt;th&gt;New drone_assets&lt;/th&gt;
+      &lt;th&gt;PR&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/issues/126&quot;&gt;126&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;ocean&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/pull/127&quot;&gt;127&lt;/a&gt;, &lt;a href=&quot;https://github.com/JdeRobot/drones/pull/128&quot;&gt;128&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/issues/109&quot;&gt;109&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;simple_labyrinth_green&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/pull/110&quot;&gt;110&lt;/a&gt;, &lt;a href=&quot;https://github.com/JdeRobot/drones/pull/111&quot;&gt;111&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/issues/119&quot;&gt;119&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;slab&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/drones/pull/121&quot;&gt;121&lt;/a&gt;, &lt;a href=&quot;https://github.com/JdeRobot/drones/pull/120&quot;&gt;120&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Issue&lt;/th&gt;
+      &lt;th&gt;Web Templates&lt;/th&gt;
+      &lt;th&gt;PR&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1019&quot;&gt;1019&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Labyrinth-Escape&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1020&quot;&gt;1020&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1042&quot;&gt;1042&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Position-Control&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1043&quot;&gt;1043&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1056&quot;&gt;1056&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Rescue People&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1057&quot;&gt;1057&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1061&quot;&gt;1061&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Drone Hangar&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1075&quot;&gt;1075&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1061&quot;&gt;1061&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Drone Gymkhana&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1075&quot;&gt;1075&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1061&quot;&gt;1061&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Visual Lander&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1075&quot;&gt;1075&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Issue&lt;/th&gt;
+      &lt;th&gt;&lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-3(ROS1-Noetic)&lt;/th&gt;
+      &lt;th&gt;PR&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1026&quot;&gt;1026&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;New &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt; 3.1.0&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1027&quot;&gt;1027&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1028&quot;&gt;1026&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Remaining exercises&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1051&quot;&gt;1051&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Issue&lt;/th&gt;
+      &lt;th&gt;Other features&lt;/th&gt;
+      &lt;th&gt;PR&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1099&quot;&gt;1099&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;On-demand logs&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1100&quot;&gt;1100&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1021&quot;&gt;1021&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Sequential launching&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1038&quot;&gt;1038&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1121&quot;&gt;1121&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Automatic evaluator&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1202&quot;&gt;1202&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Above is the list of important pull requests. The complete list of issues solved and all the merged PRs can be found &lt;a href=&quot;https://theroboticsclub.github.io/gsoc2021-Arkajyoti_Basak/progress/&quot;&gt;here&lt;/a&gt; or &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pulls?q=is%3Apr+is%3Aclosed+author%3Aiamarkaj&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;&lt;strong&gt;Final Thoughts&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;It has been a great journey till now and I can only see it becoming better. The tasks I’ve completed so far have really allowed me to tie all of my knowledge together and create an overall view of what I know.&lt;/p&gt;
+
+&lt;p&gt;Thank You to JdeRobot and Google Summer of Code. Writing open-source source software has been a valuable learning experience for me, and I am excited to keep contributing to the JdeRobot community. Thank you to Pedro, Nikhil, Prof. JoseMaría Cañas and other admins. Your mentorship and support have made this a very special experience for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/bye.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Final Blog and Report</summary></entry><entry><title type="html">Week 6</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-16-Week-6/" rel="alternate" type="text/html" title="Week 6" /><published>2021-07-16T00:00:00+02:00</published><updated>2021-07-16T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-6</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-16-Week-6/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 6 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This week I started by making the teaser videos of 5 drone exercises:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/DdwsbH944M8&quot;&gt;Follow Road&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/68GSXnOTUNs&quot;&gt;Drone Gymkhana&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/ScQbVwzqGZA&quot;&gt;Visual Lander&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/0dV8OkTG0pM&quot;&gt;Drone Cat Mouse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/r4etz1-pm4k&quot;&gt;Follow Turtlebot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also made few improvements to the Automatic Evaluator for Drone Cat Mouse exercise (&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1124&quot;&gt;Draft PR&lt;/a&gt;). Currently the progress is summarized below:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Evaluate button:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When pressed for the first time it shows a graph plotting the distance between the cat and mouse drone
+&lt;img src=&quot;https://camo.githubusercontent.com/406cd0c6dad3dd2f12dc0f73307e1a9df33eb5eb38a6916f9385e10b20e8b0dc/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f646973743d2535437371727425374225374228785f2537426d6f7573652537442d785f25374263617425374429253744253545322b25374228795f2537426d6f7573652537442d795f25374263617425374429253744253545322b253742287a5f2537426d6f7573652537442d7a5f2537426361742537442925374425354532&quot; alt=&quot;img&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;x-axis:&lt;/strong&gt; Time in seconds &lt;strong&gt;y-axis:&lt;/strong&gt; Distance in metres&lt;/li&gt;
+  &lt;li&gt;Necessary to submit the code else both the drones will be on the ground and it will plot a horizontal line with dist=0(default value)&lt;/li&gt;
+  &lt;li&gt;Measuring interval is 2 minutes. On subsequent pressing the button it reduces the measuring interval by 15 seconds each time up to a minimum measuring interval of 30 seconds&lt;/li&gt;
+  &lt;li&gt;The measuring interval resets each time the user’s code is submitted. Press the &lt;strong&gt;Play&lt;/strong&gt; and &lt;strong&gt;Evaluate&lt;/strong&gt; button sequentially&lt;/li&gt;
+  &lt;li&gt;In case to stop the plotting press &lt;strong&gt;Stop&lt;/strong&gt; button&lt;/li&gt;
+  &lt;li&gt;The background color of the plot is green and changes to red when dist is greater than 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Score:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The scoring starts as soon as both the drones are up in the air
+&lt;strong&gt;Condition:&lt;/strong&gt; both the z values of cat and drone must be greater than 0.25
+&lt;strong&gt;Reason:&lt;/strong&gt; For fair evaluation&lt;/li&gt;
+  &lt;li&gt;Necessary to submit the code else the score will be 0(default value)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scoring policy:&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;if dist is less than 2 , raise score by 0.5&lt;/li&gt;
+      &lt;li&gt;if dist is more than 2 and less than 3, raise score by 0.25&lt;/li&gt;
+      &lt;li&gt;if dist is more than 3 and less than 4, raise score by 0.12&lt;/li&gt;
+      &lt;li&gt;else not raise score&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Maximum Score:&lt;/strong&gt; 100&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Measuring interval:&lt;/strong&gt; 2 minutes&lt;/li&gt;
+  &lt;li&gt;The score resets each time the user’s code is submitted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The current manager-3.1.py in noetic uses os to run processes. But the os module are now deprecated and replaced by the subprocess module, which is the preferred option in Python 3. Thus, replaced all the os.popen with subprocess.Popen and fixed other bugs in the drone exercises in &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1142&quot;&gt;PR #1142&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 6 Progress Report</summary></entry><entry><title type="html">Week 5</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-09-Week-5/" rel="alternate" type="text/html" title="Week 5" /><published>2021-07-09T00:00:00+02:00</published><updated>2021-07-09T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-5</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-09-Week-5/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 5 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This week I started by working in &lt;strong&gt;on-demand logs support for debugging purposes&lt;/strong&gt;(&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1099&quot;&gt;issue #1099&lt;/a&gt;). The new command to launch &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt; can be found in &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1100#issuecomment-874701845&quot;&gt;this&lt;/a&gt; comment. I made a draft PR to fix the &lt;strong&gt;connection timeout&lt;/strong&gt; issue(&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1096&quot;&gt;issue #1096&lt;/a&gt;). However, I am looking for a better way to solve this problem.&lt;/p&gt;
+
+&lt;p&gt;I was also working on &lt;strong&gt;Gazebo FPS decreases since connection establishment&lt;/strong&gt;(&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1098&quot;&gt;issue #1098&lt;/a&gt;) where I noticed this happens because of the race between gzclient and GUI (and HAL too). Once you turn either off, the other improves. Recently, on-demand gzclient support was added, this definitely improves the fps of the camera images when gzclient is off but does not solve the issue completely.&lt;/p&gt;
+
+&lt;p&gt;I made a draft PR to &lt;strong&gt;add automatic evaluators for the drone-cat-mouse exercise&lt;/strong&gt;(&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1121&quot;&gt;issue #1121&lt;/a&gt;). It uses &lt;a href=&quot;https://github.com/plotly/plotly.js/&quot;&gt;Plotly&lt;/a&gt; to plot the difference between the distances of the cat and mouse drones. Plotly.js is an open-source JavaScript charting library that comes with over 40 chart types, 3D charts, statistical graphs, and SVG maps and more. Also, a score feature was added to evaluate the performance of the cat drone.&lt;/p&gt;
+
+&lt;p&gt;I am also attaching the teaser video of Drone Gymkhana exercise:&lt;/p&gt;
+
+&lt;div class=&quot;video_container&quot;&gt;
+&lt;iframe src=&quot;https://youtube.com/embed/TGrQK1KaEyU?mute=1&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 5 Progress Report</summary></entry><entry><title type="html">Week 4</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-02-Week-4/" rel="alternate" type="text/html" title="Week 4" /><published>2021-07-02T00:00:00+02:00</published><updated>2021-07-02T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-4</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-07-02-Week-4/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 4 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/week4.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I started by improving the connection protocol over drone exercises(&lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1021&quot;&gt;issue #1021&lt;/a&gt;). The issue was manager.py was not waiting for launch.py to finish launching the Gazebo, PX4 &lt;abbr title=&quot;Software In The Loop&quot;&gt;SITL&lt;/abbr&gt;, &lt;abbr title=&quot;MAVLink extendable communication node for ROS&quot;&gt;MAVROS&lt;/abbr&gt; in order. So, I have added a temporary text file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status.txt&lt;/code&gt; to solve this. As soon as &lt;abbr title=&quot;MAVLink extendable communication node for ROS&quot;&gt;MAVROS&lt;/abbr&gt; is launched, a new file will be created writing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;done&lt;/code&gt;. Until the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status.txt&lt;/code&gt; is created, manager.py will keep on checking for the file every 2 seconds.&lt;/p&gt;
+
+&lt;p&gt;The connection protocol for multi-drone exercises(addressed in &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1061&quot;&gt;issue #1061&lt;/a&gt;) is still unsolved. However, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;listener actuator_armed -i &amp;lt;topic-instance&amp;gt;&lt;/code&gt; can be used to listen on uORB topics and print the data to the console (more info: &lt;a href=&quot;https://dev.px4.io/master/en/middleware/modules_command.html#listener&quot;&gt;listener&lt;/a&gt;). The default topic instance is 0. Multi-vehicle simulations use a separate remote port for each instance, allocated sequentially (more info: &lt;a href=&quot;https://docs.px4.io/master/en/simulation/#default-px4-mavlink-udp-ports&quot;&gt;mavlink-udp-ports&lt;/a&gt;). This needs further discussion and can be used to solve the issue.&lt;/p&gt;
+
+&lt;p&gt;This week I also migrated the remaining 3 drone exercises from &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-node to Web-template based.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Drone Gymkhana:&lt;/strong&gt; The goal of this exercise is to learn how to control a drone to complete a gymkhana course, composed of several waypoints that you’ll have to navigate through.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Drone Hangar:&lt;/strong&gt; The goal of this exercise is to implement the logic that allows a quadrotor to escape a hangar filled with moving obstacles.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visual Lander:&lt;/strong&gt; The goal of this exercise is to implement the logic that allows a quadrotor to visualize a beacon and land on it.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 4 Progress Report</summary></entry><entry><title type="html">Week 3</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-25-Week-3/" rel="alternate" type="text/html" title="Week 3" /><published>2021-06-25T00:00:00+02:00</published><updated>2021-06-25T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-3</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-25-Week-3/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 3 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/rescue_people.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I started by extending the changes of &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-2.4.3 to &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-noetic in &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1051&quot;&gt;PR #1051&lt;/a&gt; which includes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;3 new exercises: Labyrinth Escape, Position Control and Car Junction&lt;/li&gt;
+  &lt;li&gt;New connection protocol on drones exercises&lt;/li&gt;
+  &lt;li&gt;Browser cache control&lt;/li&gt;
+  &lt;li&gt;RTF indicator in all exercises&lt;/li&gt;
+  &lt;li&gt;User Interface and performance improvements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1021&quot;&gt;issue #1021&lt;/a&gt; [&lt;strong&gt;connection protocol over drone exercises&lt;/strong&gt;] is closed but however a new issue must be created for the multi-drone exercises (currently only the drone-cat-mouse) because &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commander check&lt;/code&gt; only works good for a single drone model without somekind of identity number or vehicle name.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/977&quot;&gt;issue #977&lt;/a&gt; [&lt;strong&gt;iris models are spawned correctly but the drone does not take off through the Hardware Abstraction Layer (HAL) takeoff method&lt;/strong&gt;] is solved for every drone exercises except the drone-cat-mouse exercise. The sitl problem remains with the mouse [iris-red] model. For other exercises, it was solved by fixing the path of the PX4-&lt;abbr title=&quot;Software In The Loop&quot;&gt;SITL&lt;/abbr&gt; startup  script in &lt;a href=&quot;https://github.com/JdeRobot/drones/pull/125&quot;&gt;PR #125&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I also migrated the Rescue People exercise from &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-node to Web-template based. The goal of this exercise is to implement the logic that allows a quadrotor to recognize the faces of lost people and save their locations in order to perform a subsequent rescue maneuver. Here is a teasor video of the rescue people exercise in web-template:&lt;/p&gt;
+
+&lt;div class=&quot;video_container&quot;&gt;
+&lt;iframe src=&quot;https://youtube.com/embed/rgocKQzinjQ?mute=1&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 3 Progress Report</summary></entry><entry><title type="html">Week 2</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-18-Week-2/" rel="alternate" type="text/html" title="Week 2" /><published>2021-06-18T00:00:00+02:00</published><updated>2021-06-18T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-2</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-18-Week-2/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 2 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/position_control.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I started by fixing the &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/blob/507ba70cf6f3f97dad264420c79231dd26da4422/scripts/Dockerfile-noetic&quot;&gt;&lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-3.0&lt;/a&gt;(noetic). Due to python version change from 2.7 to 3.8, the modules which were deprecated needed to be updated with the new modules. Extended &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/blob/1258f07b5b45d900e606a488258c97e4b6268b6a/scripts/Dockerfile-2.4.base&quot;&gt;&lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-2.4.2&lt;/a&gt;(melodic) which supports hardware acceleration for Linux and Nvidia to &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-noetic by creating a new Dockerfile &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/blob/507ba70cf6f3f97dad264420c79231dd26da4422/scripts/Dockerfile-noetic-3.1&quot;&gt;&lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-3.1&lt;/a&gt; Currently, 7 exercises are up and running. &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1027#issue-670031651&quot;&gt;Click here&lt;/a&gt; for more details. Other exercises will be fixed soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VirtualGL&lt;/strong&gt; is an open source toolkit that gives you the ability to access hardware-accelerated 3D from within the TurboVNC virtual X server. &lt;a href=&quot;https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software#Features&quot;&gt;Click here&lt;/a&gt; to read about the comparison of remote desktop software available for various platforms.&lt;/p&gt;
+
+&lt;p&gt;I also made a &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/pull/1038&quot;&gt;draft PR&lt;/a&gt; to fix the &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/1021&quot;&gt;issue #1021&lt;/a&gt; which will solve the connectivity issue for the drone exercises in older computers where exercise.py tries to connect but Gazebo is not ready yet. Also, PX4 &lt;abbr title=&quot;Software In The Loop&quot;&gt;SITL&lt;/abbr&gt; and &lt;abbr title=&quot;MAVLink extendable communication node for ROS&quot;&gt;MAVROS&lt;/abbr&gt; will be sequentially launched and wait until the previous job is properly executed. To check for PX4 &lt;abbr title=&quot;Software In The Loop&quot;&gt;SITL&lt;/abbr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commander check&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;is used. When ready, &lt;strong&gt;Preflight Check&lt;/strong&gt; will print &lt;strong&gt;OK&lt;/strong&gt; else &lt;strong&gt;FAILED&lt;/strong&gt;. For &lt;abbr title=&quot;MAVLink extendable communication node for ROS&quot;&gt;MAVROS&lt;/abbr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rospy.wait_for_service(self.ns + &apos;mavros/cmd/arming&apos;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;is used to wait until the rosservice is available. However, the exercise.py should run only when the new launch.py is properly completed. This is not fixed yet but will be done soon.&lt;/p&gt;
+
+&lt;p&gt;This week I also migrated the Position Control exercise from &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-node to Web-template based. Position Control is an introductory exercise to show the student the need for &lt;abbr title=&quot;Proportional-Integral-Derivative Controller&quot;&gt;PID&lt;/abbr&gt;. Since, this exercise does not give many oppurtunities, the Gazebo world was kept simple without much changes. Here is a teasor video of the position control exercise in web-template:&lt;/p&gt;
+
+&lt;div class=&quot;video_container&quot;&gt;
+&lt;iframe src=&quot;https://youtube.com/embed/KldkTtdgP4s?mute=1&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 2 Progress Report</summary></entry><entry><title type="html">Week 1</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-11-Week-1/" rel="alternate" type="text/html" title="Week 1" /><published>2021-06-11T00:00:00+02:00</published><updated>2021-06-11T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Week-1</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-11-Week-1/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;GSOC Coding Week 1 Progress Report&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/labyrinth_escape.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week I started by creating a new &lt;strong&gt;simple_labyrinth_green&lt;/strong&gt; model which is a modified version of the existing &lt;strong&gt;simple_labyrinth&lt;/strong&gt; model. I am attaching a screenshot of both the models. Left one is the old model and right one is the new model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/gsoc2021-Arkajyoti_Basak/assets/img/blogs/labyrinth_escape_model_comparison.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I migrated the Labyrinth Escape exercise from &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-node to Web-template based. The goal of this exercise is to implement the logic that allows a quadrotor to escape a labyrinth through visual signals placed on the ground. Here is a teasor video of the labyrinth escape exercise in web-template:&lt;/p&gt;
+
+&lt;div class=&quot;video_container&quot;&gt;
+&lt;iframe src=&quot;https://youtube.com/embed/W8_lyyt7g5w?mute=1&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot; class=&quot;video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html">GSOC Coding Week 1 Progress Report</summary></entry><entry><title type="html">Community Bonding Period</title><link href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-02-Community-Bonding-Period/" rel="alternate" type="text/html" title="Community Bonding Period" /><published>2021-06-02T00:00:00+02:00</published><updated>2021-06-02T00:00:00+02:00</updated><id>https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/Community-Bonding-Period</id><content type="html" xml:base="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/blog/2021-06-02-Community-Bonding-Period/">&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The period of time between when accepted students are announced and the time these students are expected to start coding. This time is an excellent one to introduce students to the community, get them on the right mailing lists, working with their mentors on their timeline for the summer, etc.&lt;/em&gt; &lt;a href=&quot;https://developers.google.com/open-source/gsoc/resources/glossary#community_bonding_period&quot;&gt;&lt;abbr title=&quot;Source&quot;&gt;1&lt;/abbr&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;what-did-i-do-in-this-period&quot;&gt;What did I do in this period?&lt;/h2&gt;
+
+&lt;p&gt;Discussed and planned my &lt;abbr title=&quot;Google Summer of Code&quot;&gt;GSOC&lt;/abbr&gt; work with the mentors. I also had my first meeting with my mentors, they are very helpful and supportive. Got familiar with the codebase and other web technologies involved. Learned how to add a sensor to a robot, created a simple PyQt5 widget, and learned &lt;abbr title=&quot;Robot Operating System&quot;&gt;ROS&lt;/abbr&gt;-Control. I started working on the &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-noetic focussing on the drone exercises. I’ve opened an &lt;a href=&quot;https://github.com/JdeRobot/RoboticsAcademy/issues/977&quot;&gt;issue&lt;/a&gt; and making the changes required.&lt;/p&gt;
+
+&lt;p class=&quot;read-more&quot;&gt;Continue with &lt;a href=&quot;/gsoc2025-Shu_Xiao/blog/extras/community-bonding-usage-and-video-demonstration/&quot; class=&quot;heading flip-title&quot;&gt;Usage and Video Demonstration of the Qt widget&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ok-whats-next&quot;&gt;OK, What’s next?&lt;/h2&gt;
+
+&lt;p&gt;Currently, the drone model spawns correctly but the drone does not takeoff. Continue working on the &lt;abbr title=&quot;RoboticsAcademy Docker Image&quot;&gt;RADI&lt;/abbr&gt;-noetic issue. The coding period begins on 7th June, and I am really looking forward to having a great time ahead.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><summary type="html">The period of time between when accepted students are announced and the time these students are expected to start coding. This time is an excellent one to introduce students to the community, get them on the right mailing lists, working with their mentors on their timeline for the summer, etc. 1</summary></entry></feed>

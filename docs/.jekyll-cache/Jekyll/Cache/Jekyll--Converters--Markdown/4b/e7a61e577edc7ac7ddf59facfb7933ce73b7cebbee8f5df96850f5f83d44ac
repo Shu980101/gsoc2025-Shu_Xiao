@@ -1,0 +1,20 @@
+I"ñ<h2 id="usage">Usage</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~ <span class="o">&amp;&amp;</span> git clone https://github.com/TheRoboticsClub/gsoc2021-Arkajyoti_Basak.git
+<span class="nb">cd</span> ~/gsoc2021-Arkajyoti_Basak/community_bonding
+<span class="nb">ln</span> <span class="nt">-s</span> <span class="nv">$PWD</span>/assets/ ~/catkin_ws/src/
+roscd <span class="o">&amp;&amp;</span> catkin build
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>roslaunch ~/gsoc2021-Arkajyoti_Basak/community_bonding/drone_laser.launch
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python ~/gsoc2021-Arkajyoti_Basak/community_bonding/drone_controller/widget/widget.py
+</code></pre></div></div>
+
+<h2 id="video-demonstration">Video Demonstration</h2>
+
+<div class="video_container">
+<iframe src="https://youtube.com/embed/L2CJCvOHqHQ?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="video"></iframe>
+</div>
+:ET

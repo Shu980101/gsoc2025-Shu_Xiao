@@ -1,0 +1,212 @@
+I"�%<blockquote>
+  <p><em>Final Blog and Report</em></p>
+</blockquote>
+
+<h2 id="project-overview"><strong>Project Overview</strong></h2>
+
+<p><a href="https://jderobot.github.io/">JdeRobot</a>’s <a href="https://github.com/JdeRobot/RoboticsAcademy">Robotics-Academy</a> is a framework for learning robotics and computer vision. It consists of a collection of robot programming exercises using Python language where the student has to code the behavior of a given (either simulated or real) robot to fit some task related to robotics or computer vision. It uses standard middleware and libraries as <abbr title="Robot Operating System">ROS</abbr> and OpenCV, so the student learns the state-of-the-art tools.</p>
+
+<p>The main <a href="https://jderobot.github.io/activities/gsoc/2021#project-2-robotics-academy-new-drone-based-exercises">goal</a> of my project is to migrate the drone exercises from v2.1 (<abbr title="Robot Operating System">ROS</abbr> node based) to v2.3 (Web/Docker-based) of the Robotics Academy. Introduce a new drone-based exercise: Drone Package Delivery in <abbr title="Robot Operating System">ROS</abbr>-noetic and Gazebo-11 and create their requisite gazebo models.</p>
+
+<h2 id="completed"><strong>Completed</strong></h2>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/ohyeah.gif" alt="img" /></p>
+
+<p>All the 9 drone exercises of RoboticsAcademy are now available in a web-based template. 3 new Gazebo models are now available in drone_assets. Almost all the web-based exercises of RoboticsAcademy are now available in ROS1-Noetic (with hardware acceleration support only for Ubuntu+NVIDIA). The 9 drone exercises have support for on-demand logs (<a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1100#issuecomment-874701845">instructions</a>). The drone-cat-mouse exercise has support for automatic evaluation of the cat robot (testing).</p>
+
+<h2 id="important-links"><strong>Important Links</strong></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Docs</th>
+      <th>Teaser</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Drone Cat and Mouse</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_cat_mouse">Docs</a></td>
+      <td><a href="https://youtu.be/0dV8OkTG0pM">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Follow Turtlebot</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/follow_turtlebot">Docs</a></td>
+      <td><a href="https://youtu.be/r4etz1-pm4k">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Follow Road</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/follow_road">Docs</a></td>
+      <td><a href="https://youtu.be/DdwsbH944M8">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Labyrinth Escape</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/labyrinth_escape">Docs</a></td>
+      <td><a href="https://youtu.be/e2-BE1KKtm0">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Position Control</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/position_control">Docs</a></td>
+      <td><a href="https://youtu.be/VF5tj0xFpe0">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Rescue People</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/rescue_people">Docs</a></td>
+      <td><a href="https://youtu.be/ee_T46fpHN8">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Drone Gymkhana</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_gymkhana">Docs</a></td>
+      <td><a href="https://youtu.be/68GSXnOTUNs">Teaser</a></td>
+    </tr>
+    <tr>
+      <td>Drone Hangar</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/drone_hangar">Docs</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Visual Lander</td>
+      <td><a href="https://jderobot.github.io/RoboticsAcademy/exercises/Drones/visual_lander">Docs</a></td>
+      <td><a href="https://youtu.be/ScQbVwzqGZA">Teaser</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="future-work"><strong>Future Work</strong></h2>
+
+<p>Comparing to the proposal, few changes were made in the last week to focus on the automatic evaluation of the drone-cat-mouse exercise. Thus, the new exercise - Drone Package Delivery remains as future work.</p>
+
+<p>The connection protocol for the multi-drone exercise (<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1165">issue #1165</a>) discussed in the Week 4 blog remains as future work.</p>
+
+<h2 id="issues-and-pull-requests"><strong>Issues and Pull Requests</strong></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th>New drone_assets</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/drones/issues/126">126</a></td>
+      <td>ocean</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/127">127</a>, <a href="https://github.com/JdeRobot/drones/pull/128">128</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/drones/issues/109">109</a></td>
+      <td>simple_labyrinth_green</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/110">110</a>, <a href="https://github.com/JdeRobot/drones/pull/111">111</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/drones/issues/119">119</a></td>
+      <td>slab</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/121">121</a>, <a href="https://github.com/JdeRobot/drones/pull/120">120</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th>Web Templates</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1019">1019</a></td>
+      <td>Labyrinth-Escape</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1020">1020</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1042">1042</a></td>
+      <td>Position-Control</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1043">1043</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1056">1056</a></td>
+      <td>Rescue People</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1057">1057</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">1061</a></td>
+      <td>Drone Hangar</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1075">1075</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">1061</a></td>
+      <td>Drone Gymkhana</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1075">1075</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">1061</a></td>
+      <td>Visual Lander</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1075">1075</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th><abbr title="RoboticsAcademy Docker Image">RADI</abbr>-3(ROS1-Noetic)</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1026">1026</a></td>
+      <td>New <abbr title="RoboticsAcademy Docker Image">RADI</abbr> 3.1.0</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1027">1027</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1028">1026</a></td>
+      <td>Remaining exercises</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1051">1051</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Issue</th>
+      <th>Other features</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1099">1099</a></td>
+      <td>On-demand logs</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1100">1100</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1021">1021</a></td>
+      <td>Sequential launching</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1038">1038</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">1121</a></td>
+      <td>Automatic evaluator</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1202">1202</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Above is the list of important pull requests. The complete list of issues solved and all the merged PRs can be found <a href="https://theroboticsclub.github.io/gsoc2021-Arkajyoti_Basak/progress/">here</a> or <a href="https://github.com/JdeRobot/RoboticsAcademy/pulls?q=is%3Apr+is%3Aclosed+author%3Aiamarkaj">here</a>.</p>
+
+<h2 id="final-thoughts"><strong>Final Thoughts</strong></h2>
+
+<p>It has been a great journey till now and I can only see it becoming better. The tasks I’ve completed so far have really allowed me to tie all of my knowledge together and create an overall view of what I know.</p>
+
+<p>Thank You to JdeRobot and Google Summer of Code. Writing open-source source software has been a valuable learning experience for me, and I am excited to keep contributing to the JdeRobot community. Thank you to Pedro, Nikhil, Prof. JoseMaría Cañas and other admins. Your mentorship and support have made this a very special experience for me.</p>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/bye.gif" alt="img" /></p>
+
+:ET

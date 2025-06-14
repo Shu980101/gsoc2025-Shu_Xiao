@@ -1,0 +1,27 @@
+I""<blockquote>
+  <p><em>GSOC Coding Week 2 Progress Report</em></p>
+</blockquote>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/position_control.png" alt="img" /></p>
+
+<p>This week I started by fixing the <a href="https://github.com/JdeRobot/RoboticsAcademy/blob/507ba70cf6f3f97dad264420c79231dd26da4422/scripts/Dockerfile-noetic"><abbr title="RoboticsAcademy Docker Image">RADI</abbr>-3.0</a>(noetic). Due to python version change from 2.7 to 3.8, the modules which were deprecated needed to be updated with the new modules. Extended <a href="https://github.com/JdeRobot/RoboticsAcademy/blob/1258f07b5b45d900e606a488258c97e4b6268b6a/scripts/Dockerfile-2.4.base"><abbr title="RoboticsAcademy Docker Image">RADI</abbr>-2.4.2</a>(melodic) which supports hardware acceleration for Linux and Nvidia to <abbr title="RoboticsAcademy Docker Image">RADI</abbr>-noetic by creating a new Dockerfile <a href="https://github.com/JdeRobot/RoboticsAcademy/blob/507ba70cf6f3f97dad264420c79231dd26da4422/scripts/Dockerfile-noetic-3.1"><abbr title="RoboticsAcademy Docker Image">RADI</abbr>-3.1</a> Currently, 7 exercises are up and running. <a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1027#issue-670031651">Click here</a> for more details. Other exercises will be fixed soon.</p>
+
+<p><strong>VirtualGL</strong> is an open source toolkit that gives you the ability to access hardware-accelerated 3D from within the TurboVNC virtual X server. <a href="https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software#Features">Click here</a> to read about the comparison of remote desktop software available for various platforms.</p>
+
+<p>I also made a <a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1038">draft PR</a> to fix the <a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1021">issue #1021</a> which will solve the connectivity issue for the drone exercises in older computers where exercise.py tries to connect but Gazebo is not ready yet. Also, PX4 <abbr title="Software In The Loop">SITL</abbr> and <abbr title="MAVLink extendable communication node for ROS">MAVROS</abbr> will be sequentially launched and wait until the previous job is properly executed. To check for PX4 <abbr title="Software In The Loop">SITL</abbr></p>
+
+<p><code class="language-plaintext highlighter-rouge">commander check</code></p>
+
+<p>is used. When ready, <strong>Preflight Check</strong> will print <strong>OK</strong> else <strong>FAILED</strong>. For <abbr title="MAVLink extendable communication node for ROS">MAVROS</abbr></p>
+
+<p><code class="language-plaintext highlighter-rouge">rospy.wait_for_service(self.ns + 'mavros/cmd/arming')</code></p>
+
+<p>is used to wait until the rosservice is available. However, the exercise.py should run only when the new launch.py is properly completed. This is not fixed yet but will be done soon.</p>
+
+<p>This week I also migrated the Position Control exercise from <abbr title="Robot Operating System">ROS</abbr>-node to Web-template based. Position Control is an introductory exercise to show the student the need for <abbr title="Proportional-Integral-Derivative Controller">PID</abbr>. Since, this exercise does not give many oppurtunities, the Gazebo world was kept simple without much changes. Here is a teasor video of the position control exercise in web-template:</p>
+
+<div class="video_container">
+<iframe src="https://youtube.com/embed/KldkTtdgP4s?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="video"></iframe>
+</div>
+
+:ET

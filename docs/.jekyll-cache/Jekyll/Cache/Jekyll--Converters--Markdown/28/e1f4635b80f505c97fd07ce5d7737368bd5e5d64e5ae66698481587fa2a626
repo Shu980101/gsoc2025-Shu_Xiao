@@ -1,0 +1,17 @@
+I"¶<blockquote>
+  <p><em>GSOC Coding Week 1 Progress Report</em></p>
+</blockquote>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/labyrinth_escape.png" alt="img" /></p>
+
+<p>This week I started by creating a new <strong>simple_labyrinth_green</strong> model which is a modified version of the existing <strong>simple_labyrinth</strong> model. I am attaching a screenshot of both the models. Left one is the old model and right one is the new model.</p>
+
+<p><img src="/gsoc2021-Arkajyoti_Basak/assets/img/blogs/labyrinth_escape_model_comparison.png" alt="img" /></p>
+
+<p>Then I migrated the Labyrinth Escape exercise from <abbr title="Robot Operating System">ROS</abbr>-node to Web-template based. The goal of this exercise is to implement the logic that allows a quadrotor to escape a labyrinth through visual signals placed on the ground. Here is a teasor video of the labyrinth escape exercise in web-template:</p>
+
+<div class="video_container">
+<iframe src="https://youtube.com/embed/W8_lyyt7g5w?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="video"></iframe>
+</div>
+
+:ET

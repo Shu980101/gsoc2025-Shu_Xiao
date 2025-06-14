@@ -1,0 +1,123 @@
+I"X<h2 id="issues-and-prs">Issues and PRs</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Issue Link</th>
+      <th>Issue Name</th>
+      <th>PRs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Community Bonding Period</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/105">105</a></td>
+      <td>Meshes are missing of all the iris models</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/106">106</a>, <a href="https://github.com/JdeRobot/drones/pull/107">107</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/977">977</a></td>
+      <td>[RADI-noetic] The drone exercises are not working</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/978">978</a>, <a href="https://github.com/JdeRobot/RoboticsAcademy/pull/979">979</a></td>
+    </tr>
+    <tr>
+      <td>Week 1</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/109">109</a></td>
+      <td>Add a new model simple_labyrinth_green which will be an improvement of existing simple_labyrinth model</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/110">110</a>, <a href="https://github.com/JdeRobot/drones/pull/111">111</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1019">1019</a></td>
+      <td>[Labyrinth-Escape] Web based RADI-v2.4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1020">1020</a></td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1026">1026</a></td>
+      <td>New RADI 3.1.0</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1027">1027</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1021">1021</a></td>
+      <td>[RADI] New RADI 2.4.3 with connection protocol over drone exercises</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1038">1038</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/119">119</a></td>
+      <td>Add a new model “slab” for RoboticsAcademy position-control exercise</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/121">121</a>, <a href="https://github.com/JdeRobot/drones/pull/120">120</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1042">1042</a></td>
+      <td>[Position-Control] Web based RADI-v2.4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1043">1043</a></td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/126">126</a></td>
+      <td>Add a new model “ocean”</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/127">127</a>, <a href="https://github.com/JdeRobot/drones/pull/128">128</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1056">1056</a></td>
+      <td>[RADI-2.4] Add web-template of Rescue People exercise</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1057">1057</a></td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">1061</a></td>
+      <td>[noetic] Update the drone exercises in RADI-noetic</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1075">1075</a></td>
+    </tr>
+    <tr>
+      <td>Week 5</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1099">1099</a></td>
+      <td>[noetic] Store the output of the drones launch.py for debugging purposes</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1100">1100</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">1121</a></td>
+      <td>[drone-cat-mouse] Add automatic evaluators</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1124">1124</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1096">1096</a></td>
+      <td>[RADI] Connection closed automatically after a while of the stablishment</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1110">1110</a></td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1141">1141</a></td>
+      <td>[noetic] Improve manager-3.1.py</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1142">1142</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1145">1145</a></td>
+      <td>[gh-pages] Add youtube links to the web-template teaser videos inside the webpages of Follow Road, Drone Gymkhana and Visual Lander</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1146">1146</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1154">1154</a></td>
+      <td>[gh-pages] Add youtube links to the web-template teaser videos inside the webpages of Follow Turtlebot and Drone Cat Mouse</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1155">1155</a></td>
+    </tr>
+    <tr>
+      <td>Week 7-10</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">1121</a></td>
+      <td>[drone-cat-mouse] Add automatic evaluators</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1202">1202</a></td>
+    </tr>
+  </tbody>
+</table>
+:ET

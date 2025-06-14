@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v8.4.0 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+
+  
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Progress | GSoC 2025 Shu Xiao</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Progress" />
+<meta property="og:locale" content="en" />
+<link rel="canonical" href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/progress/" />
+<meta property="og:url" content="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/progress/" />
+<meta property="og:site_name" content="GSoC 2025 Shu Xiao" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Progress" />
+<script type="application/ld+json">
+{"headline":"Progress","@type":"WebPage","url":"https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/progress/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/assets/icons/logo.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GSoC 2025 Shu Xiao">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="GSoC 2025 Shu Xiao">
+<meta name="msapplication-config" content="/gsoc2025-Shu_Xiao/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="rgb(67,137,157)">
+
+
+<meta name="generator" content="Hydejack v8.4.0" />
+
+<link type="application/atom+xml" rel="alternate" href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/feed.xml" title="GSoC 2025 Shu Xiao" />
+
+
+
+<link rel="alternate" href="https://shu980101.github.io/gsoc2025-Shu_Xiao//gsoc2025-Shu_Xiao/progress/" hreflang="en">
+
+<link rel="shortcut icon" href="/gsoc2025-Shu_Xiao/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/gsoc2025-Shu_Xiao/assets/icons/icon.png">
+
+<link rel="manifest" href="/gsoc2025-Shu_Xiao/assets/manifest.json">
+
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/" id="_baseURL">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/js/hydejack-8.4.0.js" id="_hrefJS">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/sw.js" id="_hrefSW">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/bower_components/fontfaceobserver/fontfaceobserver.standalone.js" id="_hrefFFO">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/bower_components/katex/dist/katex.min.js" id="_hrefKatexJS">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/bower_components/katex/dist/katex.min.css" id="_hrefKatexCSS">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/bower_components/katex/dist/contrib/copy-tex.min.js" id="_hrefKatexCopyJS">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/bower_components/katex/dist/contrib/copy-tex.min.css" id="_hrefKatexCopyCSS">
+<link rel="dns-prefetch" href="/gsoc2025-Shu_Xiao/assets/img/swipe.svg" id="_hrefSwipeSVG">
+
+
+
+
+<script>!function(e,t){"use strict";function n(e,t,n,r){e.addEventListener?e.addEventListener(t,n,r):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}e.loadJS=function(e,r){var o=t.createElement("script");o.src=e,r&&n(o,"load",r,{once:!0});var a=t.scripts[0];return a.parentNode.insertBefore(o,a),o},e._loaded=!1,e.loadJSDeferred=function(r,o){function a(){e._loaded=!0,o&&n(d,"load",o,{once:!0});var r=t.scripts[0];r.parentNode.insertBefore(d,r)}var d=t.createElement("script");return d.src=r,e._loaded?a():n(e,"load",a,{once:!0}),d},e.setRel=e.setRelStylesheet=function(e){function n(){this.rel="stylesheet"}var r=t.getElementById(e);r.addEventListener?r.addEventListener("load",n,{once:!0}):r.onload=n}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<script>!function(w, d) {
+    w._noPushState = false;
+    w._noDrawer = false;
+
+    /**/
+    loadJS(d.getElementById('_hrefFFO').href, function() {
+      if ('Promise' in w) Promise.all([
+        new FontFaceObserver('Noto Sans').load(),
+        new FontFaceObserver('Roboto').load(),
+      ]).then(function f() { d.body.classList.add('font-active'); }, function() {});
+    });
+    /**/
+}(window, document);</script>
+
+<!--[if gt IE 8]><!---->
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/gsoc2025-Shu_Xiao/gsoc2025-Shu_Xiao/assets/css/hydejack-8.4.0.css">
+  <link rel="stylesheet" href="/gsoc2025-Shu_Xiao/gsoc2025-Shu_Xiao/assets/icomoon/style.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400|Noto+Sans:400,400i,700,700i">
+    <noscript>
+      <style>
+        html { font-family: Noto Sans, Helvetica, Arial, sans-serif!important; }
+        h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: Roboto, Slab, Helvetica, Arial, sans-serif!important; }
+      </style>
+    </noscript>
+  
+
+
+  <style id="_pageStyle">
+
+.content a:not(.btn){color:#43899d;border-color:rgba(67,137,157,0.2)}.content a:not(.btn):hover{border-color:#43899d}:focus{outline-color:#43899d !important}.btn-primary{color:#fff;background-color:#43899d;border-color:#43899d}.btn-primary:focus,.btn-primary.focus,.form-control:focus,.form-control.focus{box-shadow:0 0 0 3px rgba(67,137,157,0.5)}.btn-primary:hover,.btn-primary.hover{color:#fff;background-color:#387282;border-color:#387282}.btn-primary:disabled,.btn-primary.disabled{color:#fff;background-color:#43899d;border-color:#43899d}.btn-primary:active,.btn-primary.active{color:#fff;background-color:#387282;border-color:#387282}::selection{color:#fff;background:#43899d}::-moz-selection{color:#fff;background:#43899d}
+
+</style>
+
+
+<!--<![endif]-->
+
+<meta name="robots" content="noindex, nofollow">
+
+
+</head>
+
+<body>
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <div class="nav-btn-bar">
+      <span class="sr-only">Jump to:</span>
+      <a id="_menu" class="nav-btn no-hover fl" href="#_navigation">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+
+<hy-push-state
+  replace-ids="_main"
+  link-selector="a[href]:not([href*='/assets/']):not(.external):not(.no-push-state)"
+  duration="250"
+  script-selector="script:not([type^='math/tex'])"
+  prefetch
+>
+  
+    <main
+  id="_main"
+  class="content fade-in layout-page"
+  role="main"
+  data-color="rgb(67,137,157)"
+  data-theme-color="rgb(67,137,157)"
+  
+    data-image="/gsoc2025-Shu_Xiao/assets/img/cover.png"
+    data-overlay
+  
+  >
+  <article class="page" role="article">
+  <header>
+    <h1 class="page-title">Progress</h1>
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  <h2 id="issues-and-prs">Issues and PRs</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Issue Link</th>
+      <th>Issue Name</th>
+      <th>PRs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Community Bonding Period</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/105">105</a></td>
+      <td>Meshes are missing of all the iris models</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/106">106</a>, <a href="https://github.com/JdeRobot/drones/pull/107">107</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/977">977</a></td>
+      <td>[RADI-noetic] The drone exercises are not working</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/978">978</a>, <a href="https://github.com/JdeRobot/RoboticsAcademy/pull/979">979</a></td>
+    </tr>
+    <tr>
+      <td>Week 1</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/109">109</a></td>
+      <td>Add a new model simple_labyrinth_green which will be an improvement of existing simple_labyrinth model</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/110">110</a>, <a href="https://github.com/JdeRobot/drones/pull/111">111</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1019">1019</a></td>
+      <td>[Labyrinth-Escape] Web based RADI-v2.4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1020">1020</a></td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1026">1026</a></td>
+      <td>New RADI 3.1.0</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1027">1027</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1021">1021</a></td>
+      <td>[RADI] New RADI 2.4.3 with connection protocol over drone exercises</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1038">1038</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/119">119</a></td>
+      <td>Add a new model “slab” for RoboticsAcademy position-control exercise</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/121">121</a>, <a href="https://github.com/JdeRobot/drones/pull/120">120</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1042">1042</a></td>
+      <td>[Position-Control] Web based RADI-v2.4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1043">1043</a></td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td><a href="https://github.com/JdeRobot/drones/issues/126">126</a></td>
+      <td>Add a new model “ocean”</td>
+      <td><a href="https://github.com/JdeRobot/drones/pull/127">127</a>, <a href="https://github.com/JdeRobot/drones/pull/128">128</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1056">1056</a></td>
+      <td>[RADI-2.4] Add web-template of Rescue People exercise</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1057">1057</a></td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1061">1061</a></td>
+      <td>[noetic] Update the drone exercises in RADI-noetic</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1075">1075</a></td>
+    </tr>
+    <tr>
+      <td>Week 5</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1099">1099</a></td>
+      <td>[noetic] Store the output of the drones launch.py for debugging purposes</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1100">1100</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">1121</a></td>
+      <td>[drone-cat-mouse] Add automatic evaluators</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1124">1124</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1096">1096</a></td>
+      <td>[RADI] Connection closed automatically after a while of the stablishment</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1110">1110</a></td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1141">1141</a></td>
+      <td>[noetic] Improve manager-3.1.py</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1142">1142</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1145">1145</a></td>
+      <td>[gh-pages] Add youtube links to the web-template teaser videos inside the webpages of Follow Road, Drone Gymkhana and Visual Lander</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1146">1146</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1154">1154</a></td>
+      <td>[gh-pages] Add youtube links to the web-template teaser videos inside the webpages of Follow Turtlebot and Drone Cat Mouse</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1155">1155</a></td>
+    </tr>
+    <tr>
+      <td>Week 7-10</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">1121</a></td>
+      <td>[drone-cat-mouse] Add automatic evaluators</td>
+      <td><a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1202">1202</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</article>
+
+  
+
+  
+
+</main>
+
+    <hy-drawer
+  class=""
+  align="left"
+  threshold="10"
+  touch-events
+  prevent-default
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+    <div class="sidebar-bg sidebar-overlay" style="background-color:rgb(67,137,157);background-image:url(/gsoc2025-Shu_Xiao/assets/img/cover.png)"></div>
+
+    <div class="sidebar-sticky">
+      <div class="sidebar-about">
+        
+          <a class="no-hover" href="/gsoc2025-Shu_Xiao/" tabindex="-1">
+            <img src="/gsoc2025-Shu_Xiao/assets/icons/logo.png" class="avatar" alt="GSoC 2025 Shu Xiao" data-ignore />
+          </a>
+        
+        <h2 class="h1"><a href="/gsoc2025-Shu_Xiao/">GSoC 2025 Shu Xiao</a></h2>
+        
+        
+      </div>
+
+      <nav class="sidebar-nav heading" role="navigation">
+        <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_navigation"
+          href="/gsoc2025-Shu_Xiao/about/"
+          class="sidebar-nav-item"
+          
+        >
+          About
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/gsoc2025-Shu_Xiao/progress/"
+          class="sidebar-nav-item active"
+          
+        >
+          Progress
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/gsoc2025-Shu_Xiao/"
+          class="sidebar-nav-item active"
+          
+        >
+          Blog
+        </a>
+      </li>
+    
+  
+</ul>
+
+      </nav>
+
+      
+
+      <div class="sidebar-social">
+        <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/TheRoboticsClub/gsoc2021-Arkajyoti_Basak" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="mailto:arkajbasak1211@gmail.com" title="Email" class="no-mark-external">
+      <span class="icon-mail"></span>
+      <span class="sr-only">Email</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+      </div>
+    </div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+  
+</hy-push-state>
+
+
+  <!--[if !IE]><!---->
+  <script>loadJSDeferred(document.getElementById('_hrefJS').href);</script>
+  
+
+  <!--<![endif]-->
+
+  
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      
+        navigator.serviceWorker.getRegistration()
+          .then(r => r.unregister())
+          .catch(() => {});
+      
+    }
+  </script>
+
+
+
+
+
+
+<h2 class="sr-only" hidden>Templates (for web app):</h2>
+
+<template id="_animation-template" hidden>
+  <div class="animation-main fixed-top">
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+<template id="_loading-template" hidden>
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+<template id="_error-template" hidden>
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+<template id="_back-template" hidden>
+  <a id="_back" class="back nav-btn fl no-hover">
+    <span class="sr-only">Back</span>
+    <span class="icon-arrow-left2"></span>
+  </a>
+</template>
+
+<template id="_permalink-template" hidden>
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="icon-link"></span>
+  </a>
+</template>
+
+
+
+
+</body>
+</html>
