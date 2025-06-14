@@ -1,7 +1,7 @@
-url:                   https://theroboticsclub.github.io/gsoc2021-Arkajyoti_Basak
-baseurl:               '/gsoc2021-Arkajyoti_Basak'
+url:                    https://shu980101.github.io/gsoc2025-Shu_Xiao/
+baseurl:               '/gsoc2025-Shu_Xiao'
 lang:                  en
-title:                 GSoC 2021 Arkajyoti Basak
+title:                 GSoC 2025 Shu Xiao
 logo:                  /assets/icons/logo.png
 menu:
   - title:             About
