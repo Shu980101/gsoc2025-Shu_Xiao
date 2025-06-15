@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Community Bonding Period
+layout: about
 sitemap: false
+title: Community Bonding Period
 ---
 
 # Community Bonding Period
