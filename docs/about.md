@@ -5,7 +5,7 @@ sitemap: false
 
 # About me
 
-Hello there, I am [Arkajyoti Basak](https://github.com/iamarkaj), a pre-final year Mechanical undergrad from Thapar Institute of Engineering & Technology, India. I have been contributing to RoboticsAcademy for the past few months and got selected to spend this summer working on the drone exercises in RoboticsAcademy.
+Hello there, I am [Shu Xiao](https://github.com/Shu980101), a Master's student in Robotics and Advanced Construction at IAAC (Institute for Advanced Architecture of Catalonia), Spain. My work focuses on autonomous robotic manipulation using ROS2, MoveIt2, and Docker. Over the past year, I’ve actively contributed to the RoboticsAcademy community, especially in the context of computer vision and pick-and-place exercises.
 
 
 # About Google Summer of Code
@@ -24,12 +24,12 @@ Hello there, I am [Arkajyoti Basak](https://github.com/iamarkaj), a pre-final ye
 
 # About Project
 
-[![img](/assets/img/abstract/project_summary.png)](http://jderobot.github.io/RoboticsAcademy/exercises/drones_section)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=LHq4ZA2lGxQ" frameborder="0" allowfullscreen></iframe>
 
-Currently, there are 9 drone exercises available in Gazebo-9 and ROS-melodic. The [goal](https://jderobot.github.io/activities/gsoc/2021#project-2-robotics-academy-new-drone-based-exercises) of this project is to migrate the drone exercises from v2.1 (ROS node based) to v2.3 (Web/Docker-based) of the Robotics Academy. Introduce a new drone-based exercise: Drone Package Delivery in ROS-noetic and Gazebo-11 and create their requisite gazebo models.
+The [goal](https://github.com/TheRoboticsClub/gsoc2025-Shu_Xiao) of this project is to migrate the Machine Vision exercise from ROS1 + MoveIt1 to a ROS2 + MoveIt2-based architecture using Docker. The updated exercise will feature a redesigned Python API for students, an intuitive GUI for vision and manipulator control, and clearer documentation. This upgrade will improve usability, enable better debugging, and align the exercise with the current Robotics Academy structure (v2.3). The aim is to make robotics education more accessible, hands-on, and aligned with industry standards.
 
 
 # Mentors
 
-- [Pedro Arias](https://github.com/pariaspe)
-- [Nikhil Khedekar](https://github.com/nkhedekar)
+- [Diego Martín](diego.martin.martin@gmail.com)
+- [Pankhuri Vanjani](pankhurivanjani@gmail.com)
