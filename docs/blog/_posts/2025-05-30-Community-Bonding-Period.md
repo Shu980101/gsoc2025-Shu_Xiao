@@ -31,13 +31,17 @@ A highlight was studying the Vacuum Cleaner logic, including motion planning str
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1fuIjOV0E8U" frameborder="0" allowfullscreen></iframe>
 
 Final result:
-[![img](/assets/img/abstract/dash.png)](https://summerofcode.withgoogle.com/)
+<a href="https://summerofcode.withgoogle.com/">
+  <img src="/assets/img/abstract/dash.png" alt="final result" width="560">
+</a>
+
 
 - <strong>Spiral Movement</strong><br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QCSzOZ23W50" frameborder="0" allowfullscreen></iframe>
 
-Final result:
-[![img](/assets/img/abstract/spiral.png)](https://summerofcode.withgoogle.com/)
+<a href="https://summerofcode.withgoogle.com/">
+  <img src="/assets/img/abstract/spiral.png" alt="final result" width="560">
+</a>
 
 ---
 
