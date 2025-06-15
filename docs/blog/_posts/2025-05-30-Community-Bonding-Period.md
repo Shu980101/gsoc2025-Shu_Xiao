@@ -24,16 +24,16 @@ During the Community Bonding phase, I focused on:
 
 A highlight was studying the Vacuum Cleaner logic, including motion planning strategies like:
 
-- <strong>Random Angle Generation</strong><br>
+### Random Angle Generation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7a1UGHvFG_o" frameborder="0" allowfullscreen></iframe>
 
-- <strong>Dash Movement</strong><br>
+### Dash Movement
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1fuIjOV0E8U" frameborder="0" allowfullscreen></iframe>
 
 Final result:
 [![img](/assets/img/abstract/dash.png)](https://summerofcode.withgoogle.com/)
 
-- <strong>Spiral Movement</strong><br>
+### Spiral Movement
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QCSzOZ23W50" frameborder="0" allowfullscreen></iframe>
 
 
