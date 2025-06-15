@@ -30,17 +30,12 @@ A highlight was studying the Vacuum Cleaner logic, including motion planning str
 - <strong>Dash Movement</strong><br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1fuIjOV0E8U" frameborder="0" allowfullscreen></iframe>
 
-<p>
-  <img src="/assets/img/blogs/DashMovement.png" alt="final result" width="560">
-</p>
-
+[![img](/assets/img/blogs/DashMovement.png)]
 
 - <strong>Spiral Movement</strong><br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QCSzOZ23W50" frameborder="0" allowfullscreen></iframe>
 
-<p>
-  <img src="/assets/img/blogs/SpiralMovement.png" alt="final result" width="560">
-</p>
+[![img](/assets/img/blogs/SpiralMovement.png)]
 
 ---
 
