@@ -1,17 +1,0 @@
-I"<blockquote>
-  <p><em>GSOC Coding Week 5 Progress Report</em></p>
-</blockquote>
-
-<p>This week I started by working in <strong>on-demand logs support for debugging purposes</strong>(<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1099">issue #1099</a>). The new command to launch <abbr title="RoboticsAcademy Docker Image">RADI</abbr> can be found in <a href="https://github.com/JdeRobot/RoboticsAcademy/pull/1100#issuecomment-874701845">this</a> comment. I made a draft PR to fix the <strong>connection timeout</strong> issue(<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1096">issue #1096</a>). However, I am looking for a better way to solve this problem.</p>
-
-<p>I was also working on <strong>Gazebo FPS decreases since connection establishment</strong>(<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1098">issue #1098</a>) where I noticed this happens because of the race between gzclient and GUI (and HAL too). Once you turn either off, the other improves. Recently, on-demand gzclient support was added, this definitely improves the fps of the camera images when gzclient is off but does not solve the issue completely.</p>
-
-<p>I made a draft PR to <strong>add automatic evaluators for the drone-cat-mouse exercise</strong>(<a href="https://github.com/JdeRobot/RoboticsAcademy/issues/1121">issue #1121</a>). It uses <a href="https://github.com/plotly/plotly.js/">Plotly</a> to plot the difference between the distances of the cat and mouse drones. Plotly.js is an open-source JavaScript charting library that comes with over 40 chart types, 3D charts, statistical graphs, and SVG maps and more. Also, a score feature was added to evaluate the performance of the cat drone.</p>
-
-<p>I am also attaching the teaser video of Drone Gymkhana exercise:</p>
-
-<div class="video_container">
-<iframe src="https://youtube.com/embed/TGrQK1KaEyU?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="video"></iframe>
-</div>
-
-:ET

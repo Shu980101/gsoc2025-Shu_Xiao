@@ -24,7 +24,7 @@ Hello there, I am [Shu Xiao](https://github.com/Shu980101), a Master's student i
 
 # About Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=LHq4ZA2lGxQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LHq4ZA2lGxQ" frameborder="0" allowfullscreen></iframe>
 
 The [goal](https://github.com/TheRoboticsClub/gsoc2025-Shu_Xiao) of this project is to migrate the Machine Vision exercise from ROS1 + MoveIt1 to a ROS2 + MoveIt2-based architecture using Docker. The updated exercise will feature a redesigned Python API for students, an intuitive GUI for vision and manipulator control, and clearer documentation. This upgrade will improve usability, enable better debugging, and align the exercise with the current Robotics Academy structure (v2.3). The aim is to make robotics education more accessible, hands-on, and aligned with industry standards.
 
