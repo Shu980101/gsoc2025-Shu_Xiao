@@ -51,3 +51,5 @@ Heading into the coding period, I’ll be shifting my attention to the Machine V
 
 Final result:
 [![img](/assets/img/abstract/spiral.png)](https://summerofcode.withgoogle.com/)
+[![img](/assets/img/abstract/gsoc.png)](https://summerofcode.withgoogle.com/)
+[![img](/assets/img/abstract/jderobot.png)](https://jderobot.github.io/)
